@@ -1,0 +1,47 @@
+<Cenário Operacional: EJS>
+
+#Local onde se desenrolam as operações.
+#Sempre há alguém orquestrando as operações dentro de un cenário.
+
+
+<Nó Operacional>
+- Gerencia -> Administrativo -> Operacional
+
+- Gerencia
+- Administrativo
+- Operacional
+
+#Entidades, preferencialmente abstratas, que atuam no Cenário Operacional.
+#Possuem autonomia e respondem por suas ações.
+
+<Capacidade ou Subcapacidade Operacional>
+
+-Administrativo:
+
+ADM1: Registra informações no sistema
+ADM2: Organiza agenda operacional
+
+-Operacional:
+
+OP1: Transporte de pessoas
+OP2: Transporte de mercadorias
+
+#Capacidade de Nós Operacionais em prestar serviço ou produzir resultados úteis dentro de seu Cenário.
+
+
+Processo Operacional
+- Compõem capacidades e são particionados por eventos.
+
+Tarefa
+- Elemento que compõem o detalhamento de um Processo Operacional.
+
+
+
+EQUIPE EJS: 
+
+GEO/Gerente - Geral Emilton
+Financeiro - Pessoa Xyz
+Administrativo - 2 assistentes administrativos
+
+Operacional: 
+motoristas : recebem ordens de serviço e realizam coletas de mercadorias ou realizam viagens corporativas.
