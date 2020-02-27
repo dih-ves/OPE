@@ -1,4 +1,5 @@
-<Cenário Operacional: EJS>
+<Cenário Operacional>
+-EJA
 
 #Local onde se desenrolam as operações.
 #Sempre há alguém orquestrando as operações dentro de un cenário.
@@ -14,6 +15,7 @@
 #Entidades, preferencialmente abstratas, que atuam no Cenário Operacional.
 #Possuem autonomia e respondem por suas ações.
 
+___________________
 <Capacidade ou Subcapacidade Operacional>
 
 -Administrativo:
@@ -26,14 +28,22 @@ ADM2: Organiza agenda operacional
 OP1: Transporte de pessoas
 OP2: Transporte de mercadorias
 
+-Gerencia:
+
+GER: Gestão da equipe.
+
 #Capacidade de Nós Operacionais em prestar serviço ou produzir resultados úteis dentro de seu Cenário.
 
+___________________
+<Processo Operacional>
 
-Processo Operacional
-- Compõem capacidades e são particionados por eventos.
 
+#Compõem capacidades e são particionados por eventos.
+
+___________________
 Tarefa
-- Elemento que compõem o detalhamento de um Processo Operacional.
+
+#Elemento que compõem o detalhamento de um Processo Operacional.
 
 
 
