@@ -1,0 +1,105 @@
+<CENARIO OPERACIONAL>
+
+-EJS Transportes
+
+#Local onde se desenrolam as operações.
+#Sempre há alguém orquestrando as operações dentro de un cenário.
+
+
+<Nó Operacional>
+- Gerencia -> Administrativo -> Operacional
+
+- Gerencia
+- Financeiro
+- Administrativo
+- Operacional
+
+#Entidades, preferencialmente abstratas, que atuam no Cenário Operacional.
+#Possuem autonomia e respondem por suas ações.
+
+___________________
+<CAPACIDADE OU SUB CAPACIDADE OPERACIONAL>
+
+-Gerencia:
+
+GER1: Gestão geral
+
+- Financeiro:
+
+FIN1: Gestão geral das finanças da empresa
+
+-Administrativo:
+
+ADM1: Registra novas ordens de serviço no sistema
+ADM2: Organiza agenda operacional
+ADM3: realiza cadastros de produtos, serviços, funcionários e ferramentas de trabalho
+
+-Operacional:
+
+OP1: Verifica se há serviço disponível em sua categoria
+OP2: Realiza o transporte de pessoas
+OP3: Realiza o transporte de mercadorias
+
+
+#Capacidade de Nós Operacionais em prestar serviço ou produzir resultados úteis dentro de seu Cenário.
+
+___________________
+<PROCESSO OPERACIONAL>
+
+
+#Compõem capacidades e são particionados por eventos.
+
+___________________
+
+<TAREFA>
+
+EQUIPE EJS: 
+
+CEO/Gerente - Emilton
+Financeiro - Pessoa X
+Administrativo - 2 assistentes administrativos
+
+Operacional - motoristas 
+
+TAREFA:
+
+CEO/Gerente: gestão geral da empresa
+Financeiro: organiza os custos da empresa
+Administrativo:
+Operacional: recebem ordens de serviço e realizam coletas de mercadorias ou realizam viagens corporativas.
+
+#Elemento que compõem o detalhamento de um Processo Operacional.
+
+____________________________________________________________________________
+
+
+Cenário Operacional: EJS transportes
+
+Nó operacional:
+
+1 – Gerência
+2 – Financeiro
+3 – Administrativo
+4 – Operacional
+
+Capacidade ou subcapacidade operacional:
+
+    • Gerência:
+
+GER1: Gestão geral dos funcionários da empresa.
+
+    • Financeiro:
+
+FIN1: Gestão geral das finanças.
+
+    • Administrativo:
+ADM1: Registra novas ordens de serviço.
+ADM2: Organiza a agenda operacional dos motoristas.
+ADM3: realiza cadastros de produtos, serviços, funcionários e veículos de trabalho.
+
+    • Operacional:
+
+OP1: Verifica se há serviço disponível em sua categoria
+OP2: Realiza o transporte de pessoas
+OP3: Realiza o transporte de mercadorias
+
